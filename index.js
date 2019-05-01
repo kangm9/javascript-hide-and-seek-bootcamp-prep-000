@@ -20,7 +20,7 @@ function deepestChild() {
   //pull out all children nodes in ID = grand-node
   var node=document.querySelectorAll('#grand-node div')
   
-  //find deepest child node
+  //find most deeply nested child element
   var deepest = node[node.length - 1];
   return deepest;
 }
