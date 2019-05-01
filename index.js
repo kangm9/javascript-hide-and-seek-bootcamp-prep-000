@@ -9,7 +9,7 @@ function nestedTarget() {
 function increaseRankBy(n) {
   //pull out all values of child within class=ranked-list
   var lis=document.querySelectorAll('.ranked-list')
-  //
+  //loop over each value and change it
   for (let i = 0; i < lis.length; i++) {
   lis[i].innerHTML=(parseInt(lis[i].innerHTML)+n);
   }
